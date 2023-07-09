@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Huawei MateBook X Pro",
+      "image": "https://avatars.mds.yandex.net/i?id=98d174f84138e9ef70758287a417758d43c42f7f-8194230-images-thumbs&n=13",
+      "price": "40000",
+      "description": "The Huawei MateBook X Pro is our pick for the best laptop money can buy in 2018. This is a gorgeously-designed laptop with a stunning screen (albeit with a rather odd aspect ratio), and it comes packed with cutting edge components that allows it to perform brilliantly, and a battery life that runs rings around many of its rivals. It also has a very competitive price, giving you features, design and performance for quite a bit less money."
+    },
+    {
+      "id": 3,
+      "title": "Dell XPS 13",
+      "image": "https://avatars.mds.yandex.net/i?id=fc2d43ff2ac97e81eb3f6d8b08966b9e42f68a0f-4613979-images-thumbs&n=13",
+      "price": 1199,
+      "description": "The Dell XPS 13 is an absolutely brilliant laptop. The 2018 version rocks an 8th-generation Intel Core i5 or i7 processor and a bezel-less ‘Infinity Edge’ display, this Dell XPS 13 continues to be the most popular Windows laptop in the world. What’s more, there’s a wide range of customization options, so you can really make the Dell XPS 13 the best laptop for your needs. "
+    },
+    {
+      "id": 4,
+      "title": "Asus ZenBook Flip S",
+      "image": "https://avatars.mds.yandex.net/i?id=855dbc81cfb2ba91e393a6ef4da268328a4c3a83-5337839-images-thumbs&n=13",
+      "price": 1399,
+      "description": "The distinctive ZenBook Flip S13 combines elegant sophistication with an all-new design that makes it more desirable than ever. Its sleek slim-bezel NanoEdge touchscreen and 360° ErgoLift hinge make ZenBook Flip S13 ultra-compact and ultra-versatile, and the 11th Generation Intel® Core™ processor and Intel® Iris® Xe graphics deliver effortless performance for on-the-go productivity and creativity. ZenBook Flip S13 brings you flexibility and performance — with a touch of luxury."
+    }
+  ]
+}
