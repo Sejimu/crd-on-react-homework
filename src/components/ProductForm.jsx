@@ -1,15 +1,30 @@
+import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function ProductForm() {
+  const [cards, setCards] = useState([]);
+  const navigate2 = useNavigate();
   const [id, setId] = useState("");
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [price, setPrice] = useState("");
   const [image, setImage] = useState("");
 
+  async function addBlog(title, body) {
+    const { data } = await axios.post("http://localhost:8000/products", {
+      title,
+      desc,
+      price,
+      image,
+    });
+    setCards(data);
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
+    addBlog();
+    navigate2("/");
   }
 
   const navigate = useNavigate();

@@ -15,8 +15,8 @@ function ProductCard() {
   }
 
   async function deleteCards(id) {
-    const { data } = await axios(`${API}/${id}`);
-    setCards(data);
+    await axios.delete(`${API}/${id}`);
+    getCards();
   }
 
   useEffect(() => {
@@ -42,7 +42,9 @@ function ProductCard() {
               <Card.Title>{item.title}</Card.Title>
               <Card.Text>{item.description}</Card.Text>
               <Card.Text>${item.price}</Card.Text>
-              <Button variant="danger">Delete</Button>
+              <Button variant="danger" onClick={(e) => deleteCards(item.id)}>
+                Delete
+              </Button>
             </Card.Body>
           </Card>
         </div>
